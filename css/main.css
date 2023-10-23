@@ -105,6 +105,7 @@ header .basket {
   visibility: hidden;
   transition: .4s;
   opacity: 0;
+  z-index: 9;
 }
 header .basket.show {
   visibility: visible;
@@ -153,6 +154,7 @@ header .basket ul li a:hover {
 }
 /* Header / Search */
 header .search-wrap {
+  z-index: 9;
   position: absolute;
   top: 0;
   left: 0;
@@ -304,4 +306,45 @@ nav .menu li.active a {
 }
 nav .menu li.active a:hover {
   color: #1D1D1D;
+}
+
+/* Hero */
+.hero {
+
+}
+.hero .inner {
+
+}
+.hero h1 {
+
+}
+.hero figure {
+
+}
+.hero figure img {
+
+}
+.hero figure figcaption {
+
+}
+.hero figure figcaption .caption-camera {
+
+}
+.hero figure figcaption .cation-chip {
+
+}
+.hero figure figcaption .caption-storeage {
+
+}
+.hero h2 {
+
+}
+.hero p.priction {
+
+}
+.hero p.descriotion {
+
+}
+.hero .links {
+  
 }
